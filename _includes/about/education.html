@@ -1,0 +1,13 @@
+<div class="common-list-grid">
+  {% for item in site.data.about.education %}
+  <div class="glass-card education-item common-item-row">
+    <div class="item-header-grid">
+      <h3 class="item-title">{{ item.school }}</h3>
+      <span class="item-period">{{ item.period }}</span>
+    </div>
+    {% if item.degree != "" %}
+    <p class="item-subtitle">{{ item.degree }}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

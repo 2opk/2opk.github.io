@@ -1,0 +1,14 @@
+<div class="common-list-grid">
+  {% for item in site.data.about.careers %}
+  <div class="glass-card experience-item common-item-row">
+    <div class="item-header-grid">
+      <h3 class="item-title">{{ item.company }}</h3>
+      <span class="item-period">{{ item.period }}</span>
+    </div>
+    <div class="item-body-row">
+      <p class="item-role">{{ item.role }}</p>
+      <p class="item-desc">{{ item.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>

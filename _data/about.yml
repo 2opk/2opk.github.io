@@ -1,0 +1,71 @@
+bio: |
+  I am a **2nd-year Master's student** at Seoul National University Graduate School of Data Science (**SNU GSDS**), and a member of [**CODE lab**](https://codelab.snu.ac.kr/), advised by [**Prof. Hyojin Sung**](https://hsung.snu.ac.kr/bio).
+
+  My research focuses on **compiler-level optimizations** and building **efficient software infrastructures** for heterogeneous systems, including GPUs, Processing-In-Memory (PIM), and edge AI accelerators.
+
+education:
+  - school: "Seoul National University"
+    degree: "M.S. Graduate School of Data Science"
+    period: "Mar '24 ~ Jan '26 (~ing)"
+  - school: "POSTECH"
+    degree: "B.S. Computer Science and Engineering"
+    period: "Feb '19 ~ Jun '23"
+  - school: "Sejong Academy of Science and Arts"
+    degree: ""
+    period: "Mar '16 ~ Feb '18"
+
+careers:
+  - company: "Sketchsoft Co., Ltd."
+    role: "Software Engineer"
+    period: "2021 ~ 2023"
+    description: "Developed AR/XR educational applications."
+  - company: "MiDAS H&T Co., Ltd."
+    role: "Software Engineer"
+    period: "2019 ~ 2021"
+    description: "Developed HR systems and data analysis pipelines."
+
+skills:
+  - category: "Deep Learning Compiler and Systems"
+    items:
+      - label: "Languages"
+        value: "C, C++, Python, CUDA, Various DSLs"
+      - label: "Frameworks"
+        value: "MLIR, TVM, PyTorch (IR-level), LLVM"
+      - label: "Focus"
+        value: "autotuning, on-device inference, training acceleration"
+  - category: "Full-Stack Web/App Prototyping"
+    items:
+      - label: "Languages"
+        value: "Javascript, Typescript, Python"
+      - label: "Frontend"
+        value: "React, Next.js, React Native, Lit, Figma"
+      - label: "Backend"
+        value: "FastAPI, Express, Firebase"
+
+projects:
+  - title: "MADE: Multi-Agent DElibration for Creative Music-to-Image Generation"
+    context: "Natural Language Processing (SNU)"
+    date: "Jan '26"
+  - title: "Balanced Diagonal Caching for Long-Sequence LLMs"
+    context: "Parallel Distributed Programming (SNU)"
+    date: "Jun '25"
+  - title: "Perspectrum: Multi-Persona Perspective Platform"
+    context: "Data Science Project (SNU)"
+    date: "Dec '24"
+  - title: "MARS: Leveraging Image Context for Personalized Music Recommendations"
+    context: "Ambient Edge AI (SNU)"
+    date: "Dec '24"
+  - title: "Education Volunteering Management System"
+    context: "Full-stack Development (Private Client)"
+    date: "Jul '24"
+  - title: "B2B Process Interface System for Manufacturing Operations"
+    context: "Frontend Development (Sherpaspace Co, Ltd.)"
+    date: "Mar '23"
+  - title: "Curriculum-learning based Sound Source Separation Exploration"
+    context: "Internship, POSTECH ML Lab"
+    date: "Sep '22 ~ Jan '23"
+
+publications:
+  - title: "ATiM: Autotuning Tensor Programs for Processing-in-DRAM"
+    authors: "Yongwon Shin*, Dookyung Kang*, Hyojin Sung"
+    venue: "International Symposium on Computer Architecture (**ISCA**), 2025"

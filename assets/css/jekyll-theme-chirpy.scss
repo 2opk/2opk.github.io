@@ -10,8 +10,180 @@
 
 /* append your custom style below */
 
+body, .post-content, .post-content p, .post-content li, .post-content span, h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color) !important;
+  font-family: var(--font-family-base) !important;
+}
+
+:root {
+  --font-family-base: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  --neon-cyan: #00f2ff;
+  --neon-purple: #bc13fe;
+  --neon-glow: 0 0 10px rgba(0, 242, 255, 0.5);
+  --text-color: #000000; /* Absolute black */
+  --heading-color: #000000;
+}
+
+[data-mode="dark"] {
+  --text-color: #ffffff; /* Absolute white */
+  --heading-color: #ffffff;
+}
+
 #avatar img {
-  width: 100%;
-  height: 100%;
+  width: 105%;
+  height: 105%;
   object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  color: inherit !important;
+  text-shadow: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem !important;
+}
+
+h3 {
+  color: inherit !important;
+}
+
+/* Skill badges look */
+code {
+  color: inherit !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 4px;
+}
+
+/* Legacy Migration Styles - Refined for 1-column and B/W text */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Reduced from 3rem */
+}
+
+.about-section {
+  margin-bottom: 1rem; /* Reduced from 2rem */
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem !important; /* Reduced from 1.5rem */
+  margin-top: 1rem !important; /* Reduced margin above title */
+}
+
+.about-grid, .skills-grid, .projects-grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 1fr !important;
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 0.8rem;
+  transition: border-color 0.3s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Unified List Grid Layout */
+.common-list-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.common-item-row {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0.8rem 1rem !important;
+  gap: 0.2rem !important;
+}
+
+.item-header-grid {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  width: 100%;
+}
+
+.item-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--heading-color);
+  line-height: 1.2;
+}
+
+.item-period {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.item-subtitle, .item-role {
+  font-size: 0.95rem;
+  color: var(--text-color);
+  margin: 0;
+  opacity: 0.9;
+}
+
+.item-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.item-body-row {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 1.5rem;
+  align-items: baseline;
+  flex-wrap: nowrap; /* Keep on same line if possible, or allow wrap if very long? User said 'row-wise' so prefer nowrap or controlled wrap */
+}
+
+.item-role {
+  font-weight: 500;
+}
+
+.skill-category .category-title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: inherit !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item {
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item .label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.skill-item .value {
+  font-weight: 400;
 }
