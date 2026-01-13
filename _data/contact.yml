@@ -2,13 +2,24 @@
 
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/2opk"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/dookyung-kang-8b0924296/"
+
+- type: homepage
+  icon: "fas fa-home"
+  url: "https://dookyung.web.app/"
+
+- type: instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/stne____"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+  url: "mailto:stkd97@gmail.com"
 
 - type: rss
   icon: "fas fa-rss"
