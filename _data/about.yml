@@ -17,11 +17,11 @@ education:
 careers:
   - company: "Sketchsoft Co., Ltd."
     role: "Software Engineer"
-    period: "2021 ~ 2023"
+    period: "Feb '22 ~ Aug '22"
     description: "Developed AR/XR educational applications."
   - company: "MiDAS H&T Co., Ltd."
     role: "Software Engineer"
-    period: "2019 ~ 2021"
+    period: "Mar '21 ~ Jan '22"
     description: "Developed HR systems and data analysis pipelines."
 
 skills:
